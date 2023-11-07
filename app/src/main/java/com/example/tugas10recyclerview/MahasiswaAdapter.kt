@@ -18,6 +18,7 @@ class MahasiswaAdapter(private val listMahasiswa: List<Mahasiswa>,
             with(binding) {
                 imgItemPhoto.setImageResource(data.imgmahasiswa)
                 tvItemName.text = data.name
+                tvItemNim.text = data.nim
                 tvItemJurusan.text = data.jurusan
                 tvItemIpk.text = data.ipk.toString()
                 tvItemDescription.text = data.description

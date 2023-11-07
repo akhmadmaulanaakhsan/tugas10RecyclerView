@@ -40,10 +40,24 @@
             tools:text="@string/mahasiswa_name" />
 
         <TextView
-            android:id="@+id/tv_item_jurusan"
+            android:id="@+id/tv_item_nim"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_item_name"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:layout_toRightOf="@id/img_item_photo"
+            android:ellipsize="end"
+            android:maxLines="5"
+            tools:text="@string/nim" />
+
+        <TextView
+            android:id="@+id/tv_item_jurusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_item_nim"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
@@ -65,7 +79,7 @@
             android:layout_toRightOf="@id/img_item_photo"
             android:ellipsize="end"
             android:maxLines="5"
-            tools:text="@string/nim" />
+            tools:text="@string/ipk" />
 
         <TextView
             android:id="@+id/tv_item_description"
@@ -77,8 +91,10 @@
             android:layout_toEndOf="@id/img_item_photo"
             android:layout_toRightOf="@id/img_item_photo"
             android:ellipsize="end"
-            android:maxLines="4"
-            tools:text="@string/description" />
+            android:maxLines="3"
+            tools:text="@string/description"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
 
     </RelativeLayout>
 

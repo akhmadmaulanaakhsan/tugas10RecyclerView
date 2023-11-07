@@ -3,5 +3,6 @@
     <string name="mahasiswa_name">Nama Mahasiswa</string>
     <string name="jurusan">Nama Jurusan</string>
     <string name="nim">NIM</string>
+    <string name="ipk">IPK</string>
     <string name="description">Deskripsi Mahasiswa</string>
 </resources>
