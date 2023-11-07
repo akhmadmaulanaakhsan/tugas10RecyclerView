@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tugas 10 Recycler View</string>
+    <string name="mahasiswa_name">Nama Mahasiswa</string>
+    <string name="jurusan">Nama Jurusan</string>
+    <string name="nim">NIM</string>
+    <string name="description">Deskripsi Mahasiswa</string>
+</resources>
